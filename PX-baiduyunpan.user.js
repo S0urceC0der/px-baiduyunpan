@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         PX-百度云盘
 // @namespace    https://github.com/lihaoyun6/px-baiduyunpan
-// @version      0.10.7
+// @version      0.11.0
 // @description  百度网盘文件直链提取, 支持一键发送至proxyee-down进行下载
 // @author       lihaoyun6
 // @license      MIT
 // @supportURL   https://github.com/lihaoyun6/px-baiduyunpan/issues
 // @date         01/01/2018
-// @modified     05/06/2018
+// @modified     10/07/2018
 // @match        *://pan.baidu.com/disk/home*
 // @match        *://yun.baidu.com/disk/home*
 // @match        *://pan.baidu.com/s/*
