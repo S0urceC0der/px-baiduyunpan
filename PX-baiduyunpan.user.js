@@ -49,7 +49,7 @@
 			}
 		}
 		GM_xmlhttpRequest({
-	        url: 'http://' + proxyeeaddr + ':' + proxyeeport + '/open/createTask',
+	        url: 'http://' + proxyeeaddr + ':' + proxyeeport + '/tasks',
 	        headers: {'Content-type': 'application/json;charset=UTF-8'},
 			method: 'POST',
 			data: JSON.stringify(data),
@@ -88,9 +88,13 @@
 				request: {
 					url: url
 				},
-				filePath: path,
-				fileName: output,
-				connections: thsize
+                                config: {
+				    filePath: path,
+                                    connections: thsize
+                                },
+                                response: {
+				    fileName: output
+                                }
 			};
 	        //console.log(options);
 			api(options,
